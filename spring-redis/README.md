@@ -8,4 +8,6 @@
   - 조회
   - 전체 키조회
   - 전체 키 삭제
-  - cache (추가 예정 )
+  - cache
+    - default TTL
+    - custom TTL

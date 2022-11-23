@@ -1,5 +1,6 @@
 package com.exam.springredis.controller;
 
+import com.exam.springredis.ItemService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.RedisConnection;
@@ -16,6 +17,7 @@ import java.util.Set;
 @RequiredArgsConstructor
 public class ItemController {
     private final StringRedisTemplate redisTemplate;
+    private final ItemService itemService;
     private static final String KEY_PATTERN = "item:id:%s";
 
     @GetMapping("{id}")
@@ -85,5 +87,11 @@ public class ItemController {
             return null;
         });
         return ResponseEntity.ok("All key clear~~~~~~~~");
+    }
+
+    @GetMapping("/cache/items/{id}")
+    public ResponseEntity<Object> get(@PathVariable String id) {
+        List<Double> itemList = itemService.get(id);
+        return ResponseEntity.ok(itemList);
     }
 }
