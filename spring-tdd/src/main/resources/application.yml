@@ -1,0 +1,3 @@
+open-api:
+  base:
+    url: https://api.publicapis.org

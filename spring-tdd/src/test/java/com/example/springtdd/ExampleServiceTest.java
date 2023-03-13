@@ -1,5 +1,8 @@
 package com.example.springtdd;
 
+import com.example.springtdd.natural.ExampleRepository;
+import com.example.springtdd.natural.ExampleService;
+import com.example.springtdd.natural.Member;
 import org.jeasy.random.EasyRandom;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

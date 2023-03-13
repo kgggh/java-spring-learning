@@ -1,4 +1,4 @@
-package com.example.springtdd;
+package com.example.springtdd.natural;
 
 import lombok.Data;
 import lombok.Getter;
@@ -14,7 +14,7 @@ public class Member {
     private LocalDate birthday;
 
     @Getter
-    enum Gender {
+    public enum Gender {
         MALE,
         FEMALE
     }

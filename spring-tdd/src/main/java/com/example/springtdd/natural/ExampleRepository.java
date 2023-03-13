@@ -1,4 +1,4 @@
-package com.example.springtdd;
+package com.example.springtdd.natural;
 
 import java.util.List;
 
