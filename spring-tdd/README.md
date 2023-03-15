@@ -1,4 +1,7 @@
-# Spring-TDD 
+# Spring Unit Test
 
 ### Reference
-- Junit, EasyRandom을 활용한 Test 코드 작성
+- Nature
+    - Junit, EasyRandom을 활용한 unit-test
+- OpenFeign
+    - WireMock을 활용한 unit-test
