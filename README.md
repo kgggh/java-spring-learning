@@ -5,3 +5,5 @@
   - [spring-kafka](./spring-kafka)
   - [spring-redis](./spring-redis)
   - [spring-tdd](./spring-tdd)
+  - [spring-event-handler](./spring-event-handler)
+  - [spring-modulith](./spring-modulith)
