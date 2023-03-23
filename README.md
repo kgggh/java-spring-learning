@@ -1,5 +1,5 @@
-### java-spring
-- java, spring 관련된 라이브러리 사용법 및 검증 및 테스트 정리 Repository
+### java-spring-learing
+- java, spring 관련된 라이브러리 사용법을 기억하고 학습하기 위한 Repository
 - module
   - [spring-data-keyvalue](./spring-data-keyvalue)
   - [spring-kafka](./spring-kafka)
