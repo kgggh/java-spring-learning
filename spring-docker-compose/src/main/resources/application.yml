@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active:
+      - test
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+  docker:
+    compose:
+      lifecycle-management:  start_and_stop
+      file: docker-compose-test-redis.yml
+      start:
+        log-level: info
+        command: up
+      stop:
+        command: down
+      host:
+---
+spring:
+  config:
+    activate:
+      on-profile: real
+  docker:
+    compose:
+      lifecycle-management: start_and_stop
+      file: docker-compose.yml

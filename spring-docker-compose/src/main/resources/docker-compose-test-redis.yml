@@ -1,0 +1,9 @@
+services:
+  redis:
+    container_name: test-redis
+    image: 'redis:7.0'
+    ports:
+      - '6300:6379'
+    labels:
+      org.springframework.boot.service-connection: redis
+      org.springframework.boot.readiness-check.tcp.disable: true
