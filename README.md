@@ -7,3 +7,4 @@
   - [spring-tdd](./spring-tdd)
   - [spring-event-handler](./spring-event-handler)
   - [spring-modulith](./spring-modulith)
+  - [spring-docker-compose](./spring-docker-compose)
