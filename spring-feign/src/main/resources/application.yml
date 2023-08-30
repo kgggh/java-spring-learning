@@ -1,0 +1,7 @@
+server:
+  port: 8081
+logging:
+  level:
+    com.example.feign.springfeign.BoredClient: debug
+    com.example.feign.springfeign.SelfClient: debug
+
