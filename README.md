@@ -8,3 +8,4 @@
   - [spring-event-handler](./spring-event-handler)
   - [spring-modulith](./spring-modulith)
   - [spring-docker-compose](./spring-docker-compose)
+  - [spring-open-feign](./spring-open-feign)
