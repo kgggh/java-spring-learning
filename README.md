@@ -9,3 +9,4 @@
   - [spring-modulith](./spring-modulith)
   - [spring-docker-compose](./spring-docker-compose)
   - [spring-open-feign](./spring-open-feign)
+  - [java-token-bucket](./token-bucket)
